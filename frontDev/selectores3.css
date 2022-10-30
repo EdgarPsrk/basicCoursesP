@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+}
+
+p{
+    color: antiquewhite;
+}
+
+p:hover{
+    color: aqua;
+}
+
+div p:nth-child(2){
+    color: violet;
+}
+
+p::first-letter{
+    color: teal;
+}
+
+p::before{
+    content: "*";
+}
+
+p::after{
+    content: "!!";
+}
+
+::placeholder{
+    color: papayawhip;
+}
+
+#first{
+    color: aquamarine;
+}
+
+.second{
+    color: cornflowerblue;
+}
+
+/* 
+pseudoclases:
+pseudoelementos::
+*/

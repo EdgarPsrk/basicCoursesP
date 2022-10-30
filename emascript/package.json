@@ -1,0 +1,17 @@
+{
+  "name": "basicjs",
+  "version": "1.0.0",
+  "description": "Versionamiento de las diferencias entre los EmaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"live-server"
+  },
+  "keywords": [
+    "js",
+    "ema"
+  ],
+  "author": "KusMX <eddartapp@gmail.com>",
+  "license": "MIT",
+  "type":"module"
+}

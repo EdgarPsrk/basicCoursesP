@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-color: papayawhip;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+}
+
+.container .item:nth-child(2n+1){
+    background-color: aquamarine;
+}
+
+
+
+/* .container{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+
+.container .item:nth-child(2n+1){
+    background-color: yellowgreen;
+} */

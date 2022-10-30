@@ -1,0 +1,28 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: peachpuff;
+    position: relative;
+    top: 20px;
+}
+
+.item{
+    width: 20px;
+    height: 20px;
+    background-color: violet;
+    position: absolute;
+    right: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: darkseagreen;
+    position: fixed;
+    top: 0;
+}
+
+ul p{
+    position: sticky;
+    top: 0%;
+}

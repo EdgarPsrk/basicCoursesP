@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: antiquewhite;
+}
+
+div p{
+    color: lime;
+}
+
+div > div{
+    background-color: plum;
+    color: royalblue;
+}
+
+div + section{
+    background-color: aqua;
+    color: blue;
+}
+
+div ~ p{
+    color: papayawhip;
+    background-color: royalblue;
+}
+
+
+/* div p{ NOS PERMITE COLOCAR A TODOS LOS ELEMENTOS DENTRO DE ESTE DIV DEL ATRIBUTO P CON LAS MISMAS CARACTERISTICAS
+    color: lime;
+}
+
+div > div{ NOS PERMITE COLOCAR SOLAMNETE A EL HIJO DIRECTO DE ESTE DIV DE LA ETIQUETA DIV CON LAS MISMAS CARACTERISTICAS
+    background-color: plum;
+    color: royalblue;
+}
+
+div + section{ NOS PERMITE COLOCAR A TODOS LOS ELEMENTOS ADYACENTES DE SE SECTION O DE LA ETIQUETA CON LAS MISMAS CARACTERISTICAS
+    LA CONFIGURACION ES TODOS LOS SECCION SIGUIENTES DE UN DIV SE COLOCAN DE ESTA MANERA.
+    background-color: aqua;
+    color: blue;
+}
+
+div ~ p{ NOS PERMITE COLOCAR A TODOS LOS HERMANOS ADYACENTES DESPUES DEL DIV CONLA ETIQUETA P CON LA MISMA CONFIGURACION 
+    color: papayawhip;
+    background-color: royalblue;
+} */

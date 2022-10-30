@@ -1,0 +1,33 @@
+div{
+    position: absolute;
+    background-color: palegoldenrod;
+}
+
+/* .one{
+    z-index: 5;
+}
+
+.two{
+    z-index: 4;
+} */
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    z-index: 5;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    z-index: 4;
+}
+
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    z-index: 6;
+}

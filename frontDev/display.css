@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+a{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+button{
+    background-color: papayawhip;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+

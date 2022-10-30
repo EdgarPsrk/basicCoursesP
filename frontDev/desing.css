@@ -1,0 +1,10 @@
+p{
+    background: tomato;
+}
+
+@media (min-width: 600px) {
+    p{
+        background: violet;
+    }
+    
+}

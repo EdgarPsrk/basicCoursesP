@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    color: papayawhip;
+}
+
+div p{
+    color: turquoise;
+}
+
+#link{
+    color: salmon;
+}
+
+#platzi{
+    color: greenyellow;
+}
+
+.platzi{
+    color: red;
+}

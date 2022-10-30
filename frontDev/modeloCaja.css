@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid violet;
+    margin: 50px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
