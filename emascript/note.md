@@ -16,7 +16,18 @@
 
 ### es7 
 - Nacido de junio en 2016.
-- Se agregan opciones de filtrar y encontrar un elemento sobre un array.
+- Se agrega la funcion del un exponecial de manera m ** n para obtener potencias de exponencial n con base m.
+- Se agregan opciones de filtrar y encontrar un elemento sobre un array, con la funcion ***array.includes***.
+
+### es8
+- Nacido en junio de 2017
+- Object entries devuelve una matriz de pares propios de elementos enumerables, transforma un objeto en una matriz de 2x2.
+- Object values nos devuelve un array de las propiedades enumerables , es decir con los valores de las propiedades de un objeto o de las keys de ese objeto. tambien con lapropiedad object keys nos pasa un array de las keys de ese objeto.
+- String padding -> nos ayuda a generar un padding pasando un string para rellenar las posiciones vacias y terminar con el numero de caracteres que coloquemos o pasemos como parametro, asi si colocas un .padStar('valor a llegar', 'caracter con cual rellenar'), esto generaria una salida de 10 caracteres rellenando con 'caractere con cual rellenar' todas las pocisiones nesesarias para llegar a lo solicitado es decir a los 10 caracteres. contamso con pad end que se diferencia al colocar los caractertes de relleno al final del string.
+- Trainling commas nos permite agregar o resevar espacios vacios sobre una array y respetar estas posiciones, asi como contarlas para los elementos del array, en cualquier posicion. 
+- Funciones asincronas con async y await  
+> Promesas -> algo que puede pasar today, tomorrow, sometime or never.
+
 
 
 ### Comandos de la inicializacion de un repositoryo de git.

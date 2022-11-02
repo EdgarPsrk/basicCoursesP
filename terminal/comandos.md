@@ -206,13 +206,13 @@ ps
 ```
 - Muestra los procesos que esta corriendo.
 ```
-kill 'numerdo de proceso' 
+kill 'numero de proceso' 
 ```
 - Mata el proceso con el 'numero de proceso' indicado.
 ```
-vim 
+vim 'name.ext'
 ```
-- Editor de texto
+- Editor de texto.
 
 
 
