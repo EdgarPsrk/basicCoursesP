@@ -28,6 +28,12 @@
 - Funciones asincronas con async y await  
 > Promesas -> algo que puede pasar today, tomorrow, sometime or never.
 
+### es9
+- Expresiones regulares como funciones para su uso, nos permite crear plantillas de expresiones regul;ares y pasarlas como funciones para usarlas como si fueran funciones.
+- Podemos hacer uso de la funcion de propagacion ya no solo con arrays, si no con objetos a primer nivel, debido a que si reuqerimos copiar arrays dentro de un objeto, esto apriori no se puede lograr.
+- Tenemos una nueva palabra reservada que es finally para poder agregar una funcion dentyro de este y hacer uso de esta cuando terminemos de ejecutar toda la promesa ya sea que se haya cumplido o no, si, solo si la funcion termino todo el proceso.
+- Podemos hacer uso de generadores asincronos con ***generetor + asyn & await*** ademas de poder usar for asincronos.
+
 
 
 ### Comandos de la inicializacion de un repositoryo de git.
