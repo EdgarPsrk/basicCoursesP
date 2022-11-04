@@ -34,6 +34,27 @@
 - Tenemos una nueva palabra reservada que es finally para poder agregar una funcion dentyro de este y hacer uso de esta cuando terminemos de ejecutar toda la promesa ya sea que se haya cumplido o no, si, solo si la funcion termino todo el proceso.
 - Podemos hacer uso de generadores asincronos con ***generetor + asyn & await*** ademas de poder usar for asincronos.
 
+### es10
+- Salio en enero de 2019
+- Flat map nos devuelve una matriz de cualquier submatriz, es decir reduce la matriz de n dimenciones a R1, ademas con el operador map podemos pasar un ()=> y obtener una matriz de R1 con alguna operacion que coloquemos. asi como [aqui](./src/es10/flatMap.js)
+- Podemos eliminar algo cal final o al principio con trimStar o trimEnd.
+- Ahora podemos personalizar el mensaje que se muetra en consola al hacer un catch de un error.
+- Con fromEntries podemos pasar de objetos a arrays y de arrays a objetos a travz del mapeo der estos.
+
+### es11
+- Junio de 2020
+- Optional chaining nos ayuda a no romper el codigo y validar la existencia de una propiedad, con lo cual nos devuelve un *undefine* y no un *fatal error*
+- Este constructor bigInt nos permite trabajar con numero muy grandes para las operaciones matematicas con presicion.
+- Para trabajar con valores null podemos usar nullish -> ?? y colocar un valor en este null basicamente ejecuta un condicional donde si el numero esta vacio pasa el valor que estamos asiganando *num ?? 5* lo que en el ejemplo pasa es que si *num* es null entonces *num=5*
+- Nos permite montar un ()=> para continuar una vez que una serie de promesas se ha cumplido.
+- GlobalThis nos permite hacer portabilidada dependiendo del contexto de donde estemos trabajando.
+- matchAll nos ayuda a filtrar elementos dentro de un string.
+- Se agrega la posibilidad de agregar imports dinamicos, es decir que se cargan de manera que lo indiquemos y asi no sobre cargar la pagina cuando se carga al aplicacion.
+
+### es12
+- 
+
+
 
 
 ### Comandos de la inicializacion de un repositoryo de git.
