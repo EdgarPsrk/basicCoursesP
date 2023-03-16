@@ -6,6 +6,7 @@ comando
 - Descripcion, breve de detalles o de que hacemos con esto.
 
 > Para modificar variables de entorno y alias del sistema podemos acceder a el archivo **.bashrc** donde se guarda la configuracion del bash. aqui podemos agregar alias de manera permanete.
+> Solo agrega ``` alias 'nameAlias'="comando"```
 
 ``` 
 ls -lh
