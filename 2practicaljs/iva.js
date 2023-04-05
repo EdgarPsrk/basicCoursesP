@@ -13,12 +13,12 @@ const presultado=document.querySelector('#resultado');
 function calcularNeto(base){
     let isr=base*0.16;
     let sumaO=base+isr
-    presultado.innerText = 'El producto con iva vale: ' + sumaO
+    presultado.innerText = 'El producto con iva vale: ' + sumaO.toFixed(2);
 }
 
 function calcularSubneto(isr){
     let base=isr/1.16
-    presultado.innerText = 'El producto sin iva vale: ' + base
+    presultado.innerText = 'El producto sin iva vale: ' + base.toFixed(2);
 }
 
 
@@ -35,3 +35,6 @@ function btnCalculoSubneto(){
 
     ivaI==0.16 ? calcularSubneto(isr) : console.warn('Todavia no podemos hacer eso');
 }
+
+btn1.addEventListener('click',btnCalculoNeto);
+btn2.addEventListener('click',btnCalculoSubneto);
